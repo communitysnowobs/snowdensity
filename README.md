@@ -10,7 +10,7 @@ them in the same location as the matlab file.
 
 The function information is below.  
 
-function [SWE,DOY] = swe_calculator(Y,M,D,H,LAT,LON)  
+function [SWE,DOY] = dfhill_swe_calculator(Y,M,D,H,LAT,LON)  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
 %This function implements a power law regression in order to produce a  
