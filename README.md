@@ -5,9 +5,12 @@ We have prepared a simple function in Matlab that will calculate snow water equi
 function [SWE,DOY] = swe_calculator(Y,M,D,H,LAT,LON)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This function implements a power law regression in order to produce a
+
 %value of snow water equivalent (SWE) based on various parameters
+
 %associated with a snow depth measurement. The input variables can be
-%scalars (single measurement) or vectors (batch measurements). Th
+
+%scalars (single measurement) or vectors (batch measurements). The
 
 %following information on units, etc., is critical.
 
