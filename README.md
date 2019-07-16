@@ -2,9 +2,12 @@
 
 We have prepared a simple function in Matlab that will calculate snow water equivalent   
 based on day, month, year, lat, lon, and snow depth at the observation point. In this   
-.zip file you will find a single matlab (.m) function file and two files containing   
-climatological normals of winter precipitation (Dec-Jan-Feb) and temperature difference   
-(diff between mean T of warmest month and mean T of coldest month).   
+repo you will find a single matlab (.m) function file, two zipped ESRI ASCII grid files,  
+and one (.rtf) file with information about the grid files. The grids contain climatological  
+normals of winter precipitation (Dec-Jan-Feb) and temperature difference (diff between  
+mean T of warmest month and mean T of coldest month). To use, unzip the grids and place  
+them in the same location as the matlab file.  
+
 The function information is below.  
 
 function [SWE,DOY] = swe_calculator(Y,M,D,H,LAT,LON)  
