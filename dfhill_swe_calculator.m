@@ -10,13 +10,13 @@ function [SWE,DOY] = dfhill_swe_calculator(Y,M,D,H,LAT,LON)
 %June 2019
 
 %SWE (output) - snow water equivalent (mm)
+%DOY (output) - day of water year (Oct 1 is the origin, i.e. DOY=1)
 %H - snow depth (mm)
 %Y - year
 %M - month (1 --> 12)
 %D - day (1 --> 31 (or 28, or 30, as appropriate))
 %LAT - latitude. Positive for N. Hem.
 %LON - longitude (signed). So, -120 or so for North America.
-%DOY - day of water year (Oct 1 is the origin, i.e. DOY=1)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %load grids for winter precipitation (PPTWT) and temperature difference
