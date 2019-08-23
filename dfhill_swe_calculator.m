@@ -9,6 +9,12 @@ function [SWE,DOY] = dfhill_swe_calculator(Y,M,D,H,LAT,LON)
 %David Hill, Oregon State University
 %June 2019
 
+%See full details at: Hill, D.F., Burakowski, E.A., Crumley, R.L., Keon, J., 
+%Hu, J.M., Arendt, A.A., Wikstrom Jones, K., Wolken G.J., 2019, 
+%"Converting snow depth to snow water equivalent using climatological 
+%variables," The Cryosphere, v.13, pp.1767-1784 
+%https://doi.org/10.5194/tc-13-1767-2019
+
 %SWE (output) - snow water equivalent (mm)
 %DOY (output) - day of water year (Oct 1 is the origin, i.e. DOY=1)
 %H - snow depth (mm)
