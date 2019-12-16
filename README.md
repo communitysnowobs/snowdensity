@@ -38,6 +38,7 @@ June 2019
 ### Jupyter Notebook & Python scripts
 
 The input variables can be a list or an array of one or more values.
+
 Required modules/packages:
 import numpy as np
 from osgeo import gdal
