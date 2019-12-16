@@ -32,8 +32,7 @@ Specific script information is below.
 function [SWE,DOY] = dfhill_swe_calculator(Y,M,D,H,LAT,LON)  
 The input variables can be scalars (single measurement) or vectors (batch measurements).
 
-David Hill, Oregon State University   
-June 2019
+David Hill, Oregon State University, June 2019
 
 ### Jupyter Notebook & Python scripts
 
@@ -45,5 +44,4 @@ from osgeo import gdal
 from scipy.interpolate import interp2d  
 from datetime import date 
 
-Christina Aragon, Oregon State University   
-December 2019
+Christina Aragon, Oregon State University, December 2019
