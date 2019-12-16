@@ -32,7 +32,7 @@ Specific script information is below.
 function [SWE,DOY] = dfhill_swe_calculator(Y,M,D,H,LAT,LON)  
 The input variables can be scalars (single measurement) or vectors (batch measurements).
 
-David Hill, Oregon State University
+David Hill, Oregon State University   
 June 2019
 
 ### Jupyter Notebook & Python scripts
