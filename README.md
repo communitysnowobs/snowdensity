@@ -39,11 +39,11 @@ June 2019
 
 The input variables can be a list or an array of one or more values.
 
-Required modules/packages:
-import numpy as np
-from osgeo import gdal
-from scipy.interpolate import interp2d
-from datetime import date
+Required modules/packages:  
+import numpy as np  
+from osgeo import gdal  
+from scipy.interpolate import interp2d  
+from datetime import date 
 
-Christina Aragon, Oregon State University
+Christina Aragon, Oregon State University   
 December 2019
