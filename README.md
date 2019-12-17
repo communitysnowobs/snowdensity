@@ -1,8 +1,12 @@
 # snowdensity
 
 We have prepared scripts in Matlab, Jupyter Notebook, and Python that will calculate snow water 
-equivalent based on day, month, year, lat, lon, and snow depth at the observation point. In this   
-repo you will find a single matlab (.m) function file, a single jupyter notebook (.ipynb) file, 
+equivalent based on day, month, year, lat, lon, and snow depth at the observation point. 
+
+These scripts are associated with: 
+Hill, D.F., Burakowski, E.A., Crumley, R.L., Keon, J., Hu, J.M., Arendt, A.A., Wikstrom Jones, K., Wolken G.J., 2019, "Converting snow depth to snow water equivalent using climatological variables," The Cryosphere, v.13, pp.1767-1784 https://doi.org/10.5194/tc-13-1767-2019
+
+In this repo you will find a single matlab (.m) function file, a single jupyter notebook (.ipynb) file, 
 a single python (.py) file, two zipped ESRI ASCII grid files, and one (.rtf) file with information 
 about the grid files. The grids contain climatological normals of winter precipitation (Dec-Jan-Feb) 
 and temperature difference (diff between mean T of warmest month and mean T of coldest month). 
@@ -25,7 +29,6 @@ SWE - snow water equivalent (mm)
 DOY - day of water year (Oct 1 is the origin, i.e. DOY=1)  
 
 Specific script information is below. 
-
 
 ### Matlab function
 
